@@ -6,13 +6,13 @@ import {useCallback, useEffect} from "react";
 
 const products = [
     {id: '1', title: 'KERAKUR. Икра баклажановая', price: 250, description: '500 гр.', image: 'https://armproducti.ru/imgtmp/orign_100_w/data/foto/kerakur/ikra.jpg'},
-    {id: '2', title: 'Куртка', price: 12000, description: 'Зеленого цвета, теплая'},
-    {id: '3', title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '4', title: 'Куртка 8', price: 122, description: 'Зеленого цвета, теплая'},
-    {id: '5', title: 'Джинсы 3', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '6', title: 'Куртка 7', price: 600, description: 'Зеленого цвета, теплая'},
-    {id: '7', title: 'Джинсы 4', price: 5500, description: 'Синего цвета, прямые'},
-    {id: '8', title: 'Куртка 5', price: 12000, description: 'Зеленого цвета, теплая'},
+    {id: '2', title: 'KERAKUR. Аджабсандал', price: 250, description: '1л', image: '' },
+    {id: '3', title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые', image: ''},
+    {id: '4', title: 'KERAKUR. Икра Баклажанвоая Острая ', price: 250, description: '500гр', image: ''},
+    {id: '5', title: 'KERAKUR. Томаты маринованные', price: 5000, description: '1л', image: ''},
+    {id: '6', title: 'KERAKUR. Листья виноградные консервированные', price: 600, description: '600гр', image: ''},
+    {id: '7', title: 'KERAKUR. Аджика', price: 5500, description: '500мл', image: ''},
+    {id: '8', title: 'KERAKUR. Аппетит', price: 12000, description: '500гр', image: ''},
 ]
 
 const getTotalPrice = (items = []) => {
