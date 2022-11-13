@@ -5,10 +5,10 @@ import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
 
 const products = [
-    {id: '1', title: 'KERAKUR. Икра баклажановая', price: 250, description: '500 гр.', image: 'https://armproducti.ru/imgtmp/orign_100_w/data/foto/kerakur/ikra.jpg'},
-    {id: '2', title: 'KERAKUR. Аджабсандал', price: 250, description: '1л', image: '' },
-    {id: '3', title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые', image: ''},
-    {id: '4', title: 'KERAKUR. Икра Баклажанвоая Острая ', price: 250, description: '500гр', image: ''},
+    {id: '1', title: 'KERAKUR. Икра баклажановая', price: 250, description: '500 гр., в наличие есть и острая', image: 'https://armproducti.ru/imgtmp/orign_100_w/data/foto/kerakur/ikra.jpg'},
+    {id: '2', title: 'KERAKUR. Аджабсандал', price: 250, description: '1л', image: 'https://bon-jur.ru/wp-content/uploads/2021/12/AJAP-1000x1000-1.jpg' },
+    {id: '3', title: 'KERAKUR. Бамия маринованная', price: 5000, description: 'с чесноком(500гр)', image: 'https://basket-02.wb.ru/vol162/part16210/16210487/images/big/1.jpg'},
+    {id: '4', title: 'KERAKUR. Иман Баялды ', price: 250, description: '500гр', image: ''},
     {id: '5', title: 'KERAKUR. Томаты маринованные', price: 5000, description: '1л', image: ''},
     {id: '6', title: 'KERAKUR. Листья виноградные консервированные', price: 600, description: '600гр', image: ''},
     {id: '7', title: 'KERAKUR. Аджика', price: 5500, description: '500мл', image: ''},
