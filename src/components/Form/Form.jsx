@@ -56,8 +56,8 @@ const Form = () => {
             <input
                 className={'input'}
                 type="text"
-                placeholder={'Страна'}
-                value={country}
+                placeholder={'ФИО'}
+                value={fio}
                 onChange={onChangeCountry}
             />
             <input
