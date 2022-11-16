@@ -3,19 +3,19 @@ import './Form.css';
 import {useTelegram} from "../../hooks/useTelegram";
 
 const Form = () => {
-    const [country, setCountry] = useState('');
+    const [fio, setFio] = useState('');
     const [street, setStreet] = useState('');
     const [subject, setSubject] = useState('physical');
     const {tg} = useTelegram();
 
     const onSendData = useCallback(() => {
         const data = {
-            country,
+            fio,
             street,
             subject
         }
         tg.sendData(JSON.stringify(data));
-    }, [country, street, subject])
+    }, [fio, street, subject])
 
     useEffect(() => {
         tg.onEvent('mainButtonClicked', onSendData)
@@ -31,15 +31,15 @@ const Form = () => {
     }, [])
 
     useEffect(() => {
-        if(!street || !country) {
+        if(!street || !fio) {
             tg.MainButton.hide();
         } else {
             tg.MainButton.show();
         }
-    }, [country, street])
+    }, [fio, street])
 
-    const onChangeCountry = (e) => {
-        setCountry(e.target.value)
+    const onChangeFio = (e) => {
+        setFio(e.target.value)
     }
 
     const onChangeStreet = (e) => {
@@ -56,9 +56,9 @@ const Form = () => {
             <input
                 className={'input'}
                 type="text"
-                placeholder={'ФИО'}
+                placeholder={'fio'}
                 value={fio}
-                onChange={onChangeCountry}
+                onChange={onChangeFio}
             />
             <input
                 className={'input'}
