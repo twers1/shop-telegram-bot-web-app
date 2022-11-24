@@ -56,7 +56,7 @@ const Form = () => {
             <input
                 className={'input'}
                 type="text"
-                placeholder={'fio'}
+                placeholder={'ФИО'}
                 value={fio}
                 onChange={onChangeFio}
             />

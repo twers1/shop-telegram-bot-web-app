@@ -136,7 +136,7 @@ const products = [
     {id: '129', title: 'Добрый. Апельсин', price: 50, description: 'железная банка', image: ''},
     {id: '130', title: 'Добрый. Спрайт', price: 50, description: 'железная банка', image: ''},
     {id: '131', title: 'Добрый. Кола', price: 1, description: '', image: ''},
-    {id: '132', title: '', price: 1, description: '', image: ''},
+    {id: '132', title: 'Hay Cola', price: 1, description: '', image: ''},
     {id: '133', title: '', price: 1, description: '', image: ''},
     {id: '134', title: '', price: 1, description: '', image: ''},
     {id: '135', title: '', price: 1, description: '', image: ''},
