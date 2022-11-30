@@ -176,7 +176,7 @@ const products = [
     {id: '168', title: 'Noyan. Маринованные помидоры', price: 1, description: '920г', image: 'https://cdn1.ozone.ru/s3/multimedia-u/6129219762.jpg'},
     {id: '169', title: 'Noyan. Томаты в собственном соку', price: 1, description: '920г', image: 'https://cdn1.ozone.ru/s3/multimedia-f/6027995271.jpg'},
     {id: '170', title: 'Aiello. Аппетитные перчики маринованные', price: 210, description: '500г', image: 'https://tsiran.am/images/products/050059/591010e95010284ba4eec6bd27dd4812/764x600.JPG'},
-    {id: '171', title: 'Armatfood. Томаты в собственном соку', price: 1, description: '', image: ''},
+    {id: '171', title: 'Armatfood. Томаты в собственном соку', price: 22, description: '', image: ''},
     {id: '172', title: 'Armatfood. Томаты маринованные', price: 1, description: '', image: ''},
     {id: '173', title: 'Armatfood. Огурцы маринованные', price: 1, description: '', image: ''},
     {id: '174', title: 'Armatfood. Виноградные листья', price: 1, description: '', image: ''},
