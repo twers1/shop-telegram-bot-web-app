@@ -348,6 +348,7 @@ const products = [
     {id: '339', title: '', price: 1, description: '', image: ''},
     {id: '340', title: '', price: 1, description: '', image: ''},
     {id: '341', title: '', price: 1, description: '', image: ''},
+    {id: '342', title: '', price: 1, description: '', image: ''},
 
 
 
