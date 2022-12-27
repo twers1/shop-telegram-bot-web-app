@@ -259,7 +259,7 @@ const products = [
     {id: '250', title: 'Топленное масло', price: 850, description: '', image: ''},
     {id: '251', title: 'EcoFood. Говядина тушеная', price: 390, description: '', image: 'https://cdn1.ozone.ru/s3/multimedia-t/c1000/6255228689.jpg'},
     {id: '252', title: 'Ecofood. Сиг в томатном соусе', price: 390, description: '', image: 'https://avatars.mds.yandex.net/get-mpic/5173454/img_id2437618536055252871.jpeg/orig'},
-    {id: '253', title: 'Сиг севанский', price: 390, description: 'обжаренный - в томатном соусе', image: 'https://ikravsamare.ru/wp-content/uploads/2020/03/828084.jpg'},
+    {id: '253', title: 'Ecofood. Сиг севанский', price: 390, description: 'обжаренный - в томатном соусе', image: 'https://ikravsamare.ru/wp-content/uploads/2020/03/828084.jpg'},
     {id: '254', title: 'Ararat. Форель в масле', price: 250, description: 'радужная с добавлением масла', image: 'https://avatars.mds.yandex.net/get-mpic/5327057/img_id5645415865610772955.png/orig'},
     {id: '255', title: 'Ararat. Форель обжаренная в томатном соусе', price: 250, description: '', image: 'https://avatars.mds.yandex.net/get-mpic/7381431/img_id6330478711617091122.jpeg/600x800'},
     {id: '256', title: 'Amado. Фасоль с нутом и чечевицей', price: 150, description: '', image: 'https://cdn.100sp.ru/cache_pictures/907964780/thumb300'},
@@ -267,7 +267,7 @@ const products = [
     {id: '258', title: 'Coopoliva. Зеленые оливки с косточками', price: 260, description: '', image: 'https://static.parma.am/origin/product/1024/08215.jpg'},
     {id: '259', title: 'M.R.S. Оливки Каламата супергигант с косточкой', price: 580, description: '', image: 'https://apeti.ru/upload/iblock/153/olivki_m_r_s_kalamata_supergigant_s_kostochkoy_850_ml.jpg'},
     {id: '260', title: 'USKUDAR. Маслины супергигант без косточки', price: 560, description: '', image: 'https://03.img.avito.st/image/1/1.WtXrZ7a29jz9x0w800ITzynE9jZVZPeGX8T0.j23oXtlSLryF-xzYWDZPqRv9q7_4KQ1HW0sKcWm76_k'},
-    {id: '261', title: 'USUDAR. Оливки супергигант без косточки', price: 560, description: '', image: 'https://89.img.avito.st/image/1/1.3Eq5x7a2cKOvZ8qjjbDyU3tkcKkHxHEZDWRy.3-7wBZ8sgUnKy3EVsmbSq486C-xhNXsYdB57a--Sm74'},
+    {id: '261', title: 'USKUDAR. Оливки супергигант без косточки', price: 560, description: '', image: 'https://89.img.avito.st/image/1/1.3Eq5x7a2cKOvZ8qjjbDyU3tkcKkHxHEZDWRy.3-7wBZ8sgUnKy3EVsmbSq486C-xhNXsYdB57a--Sm74'},
     {id: '262', title: 'Amado. Оливки крупные', price: 700, description: '', image: 'https://storage-seafood-shop.storage.yandexcloud.net/iblock/458/45851f1a6c7ebd0bbeb34a721525c649/2a4d618f470cce4c4b8038dd307a6a5e.jpg'},
     {id: '263', title: 'Aiello. Зеленые оливки с косточками', price: 700, description: '', image: 'https://cdn1.ozone.ru/s3/multimedia-3/c1000/6064906095.jpg'},
     {id: '264', title: 'Premium food. Осетина в томатном соусе', price: 430, description: '', image: ''},
@@ -291,7 +291,7 @@ const products = [
     {id: '282', title: 'Вкус Кавказа. Соус Ткемали. Кизил и алыча', price: 170, description: 'такая же банка, только с кизилом и алычой ', image: 'https://bon-jur.ru/wp-content/uploads/2022/08/-перс-ал-e1661859669227.png'},
     {id: '283', title: 'KERAKUR. Ткемали', price: 165, description: '', image: 'https://apeti.ru/upload/resize_cache/iblock/4ed/600_400_2/sous_kerakur_tkemali_zelenyy_280_g.jpg'},
     {id: '284', title: 'Рамаль. Ткемали соус. Ткемали грузинский соус', price: 230, description: '', image: 'https://cdn1.ozone.ru/s3/multimedia-y/6076717798.jpg'},
-    {id: '285', title: 'Eco Food. Tkemali Соус фруктовый кисло-сливовый', price: 230, description: '', image: 'https://www.positive-market.ru/-/f/store/offers/1000x1000q80s/0q2yiyutjilt2qwa.jpg'},
+    {id: '285', title: 'Ecofood. Tkemali Соус фруктовый кисло-сливовый', price: 230, description: '', image: 'https://www.positive-market.ru/-/f/store/offers/1000x1000q80s/0q2yiyutjilt2qwa.jpg'},
     {id: '286', title: 'Сацебели "Дедо". Острый соус томатный', price: 220, description: '', image: 'https://www.sas.am/upload/iblock/fe5/d9414f6664b8df17318b03f43f0a3edf.jpg'},
     {id: '287', title: 'Ереван. Дедо', price: 1, description: '', image: 'https://tsiran.am/images/products/057306/aec4d848dbf2051f75742cb6841d60f9/1200x630.JPG'},
     {id: '288', title: 'Map. Томатная паста', price: 270, description: '740г', image: 'https://marketyan.am/media/image/cc/27/c4/48500340003185XodruLCCZg9R_600x600.jpg'},
@@ -398,6 +398,7 @@ const products = [
     {id: '389', title: '', price: 1, description: '', image: ''},
     {id: '390', title: '', price: 1, description: '', image: ''},
     {id: '391', title: '', price: 1, description: '', image: ''},
+    {id: '392', title: 'ArtFood. Перец деликатесный', price: 200, description: '', image: 'https://avatars.mds.yandex.net/get-mpic/5334818/img_id2304803645455707589.jpeg/orig'},
 
 
 
