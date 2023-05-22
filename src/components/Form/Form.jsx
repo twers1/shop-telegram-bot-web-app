@@ -6,16 +6,20 @@ const Form = () => {
     const [fio, setFio] = useState('');
     const [street, setStreet] = useState('');
     const [subject, setSubject] = useState('physical');
+    const [phone, setPhone] = useState('');
+    const [usernameTg, setUsernameTg] = useState('');
     const {tg} = useTelegram();
 
     const onSendData = useCallback(() => {
         const data = {
             fio,
             street,
-            subject
+            subject,
+            phone,
+            usernameTg
         }
         tg.sendData(JSON.stringify(data));
-    }, [fio, street, subject])
+    }, [fio, street, subject, phone, usernameTg])
 
     useEffect(() => {
         tg.onEvent('mainButtonClicked', onSendData)
@@ -50,6 +54,14 @@ const Form = () => {
         setSubject(e.target.value)
     }
 
+    const onChangePhone = (e) => {
+        setPhone(e.target.value)
+    }
+
+    const onChangeUsernameTg = (e) => {
+        setUsernameTg(e.target.value)
+    }
+
     return (
         <div className={"form"}>
             <h3>Введите ваши данные</h3>
@@ -66,6 +78,20 @@ const Form = () => {
                 placeholder={'Улица'}
                 value={street}
                 onChange={onChangeStreet}
+            />
+            <input
+                className={'input'}
+                type="text"
+                placeholder={'Телефон'}
+                value={street}
+                onChange={onChangePhone}
+            />
+            <input
+                className={'input'}
+                type="text"
+                placeholder={'Ник пользователя(в телеграмме)'}
+                value={street}
+                onChange={onChangeUsernameTg}
             />
             <select value={subject} onChange={onChangeSubject} className={'select'}>
                 <option value={'physical'}>Физ. лицо</option>
