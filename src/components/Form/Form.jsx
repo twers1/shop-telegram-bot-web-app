@@ -40,7 +40,7 @@ const Form = () => {
         } else {
             tg.MainButton.show();
         }
-    }, [fio, street])
+    }, [fio, street, subject, phone, usernameTg])
 
     const onChangeFio = (e) => {
         setFio(e.target.value)
@@ -81,7 +81,7 @@ const Form = () => {
             />
             <input
                 className={'input'}
-                type="text"
+                type="integer"
                 placeholder={'Телефон'}
                 value={street}
                 onChange={onChangePhone}
