@@ -83,14 +83,14 @@ const Form = () => {
                 className={'input'}
                 type="integer"
                 placeholder={'Телефон'}
-                value={street}
+                value={phone}
                 onChange={onChangePhone}
             />
             <input
                 className={'input'}
                 type="text"
                 placeholder={'Ник пользователя(в телеграмме)'}
-                value={street}
+                value={usernameTg}
                 onChange={onChangeUsernameTg}
             />
             <select value={subject} onChange={onChangeSubject} className={'select'}>
